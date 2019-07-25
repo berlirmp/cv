@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .App {
+    display: flex;
+    margin: 0 8vw;
+  }
+  .big-ass-name {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    left: 0;
+    flex: 1;
+    margin-right: 4vw;
+  }
+  .big-ass-name .my-name {
+    margin-top: 128px;
+    margin-bottom: 0;
+    font-size: 6.5vw;
+    line-height: 0.9;
+  }
+  .big-ass-name .my-name span {
+    margin-left: 150px;
+  }
+  .big-ass-name p {
+    display: inline-block;
+    font-size: 2vw;
+    margin-left: 12px;
+    margin-top: 72px;
+    padding-bottom: 12px;
+  }
+  .big-ass-name p::before {
+    content: " ";
+    display: block;
+    bottom: 0;
+    right: 0;
+    width: 60px;
+    height: 3px;
+    background: #313131;
+  }
+  .info {
+    padding-top: 32px;
+    margin: 0 0 32px;
+  }
+  p {
+    margin: 0;
+    margin-bottom: 4px;
+    line-height: 1.5;
+  }
+  ul li {
+    margin-bottom: 1.5rem;
+  }
+  .so-bold {
+    font-weight: 700;
+  }
+  .thin {
+    font-weight: 400;
+  }
+  .not-really-black {
+    color: #353535;
+  }
+  .bottom-bordered {
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #313131;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    padding: 16px;
+    font-size: 12px;
+    color: #414141;
+  }
+  @media (max-width: 1024px) {
+    .App {
+      flex-direction: column;
+      margin: 0 56px;
+    }
+    .big-ass-name {
+      margin-top: 2rem;
+      position: relative;
+      margin-right: 0;
+      height: auto;
+    }
+    .big-ass-name .my-name {
+      margin: 0;
+      font-size: 72px;
+      text-align: center;
+      line-height: 1.5;
+    }
+    .big-ass-name .my-name span {
+      margin-left: 0;
+    }
+    .big-ass-name p {
+      text-align: center;
+      display: block;
+      margin-left: 0;
+      margin-top: 24px;
+      border: none;
+      font-size: 1.5rem;
+    }
+    .big-ass-name p::before {
+      display: none;
+    }
+    .info {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+    footer {
+      position: relative;
+      text-align: center;
+    }
+  }
+  @media (max-width: 768px) {
+    .App {
+      margin: 0;
+    }
+  }
+  
