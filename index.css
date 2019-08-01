@@ -54,8 +54,17 @@ ul li {
   margin-bottom: 1rem;
 }
 
+ul li p:first-of-type {
+  font-size: 1rem;
+}
+
 ul li p:last-of-type {
-  margin-top: 0.8rem;
+  margin-top: 0.5rem;
+  font-size: 1rem !important;
+}
+
+ul li p, ul li span {
+  font-size: 0.8rem;
 }
 
 .so-bold {
