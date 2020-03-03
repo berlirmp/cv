@@ -3,6 +3,8 @@ body {
   font-family: "Quicksand", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #282C35;
+  color: hsla(0,0%,100%,0.88);
 }
 .App {
   display: flex;
@@ -39,7 +41,7 @@ body {
   right: 0;
   width: 60px;
   height: 3px;
-  background: #313131;
+  background: #ffa7c4;
 }
 .info {
   padding-top: 32px;
@@ -67,6 +69,16 @@ ul li p, ul li span {
   font-size: 0.8rem;
 }
 
+ul li.disable {
+  text-decoration: line-through;
+}
+
+ul li a {
+  color: #ffa7c4;
+  text-decoration: none;
+  box-shadow: 0 1px 0 0 currentColor;
+}
+
 .so-bold {
   font-weight: 700;
 }
@@ -88,7 +100,7 @@ footer {
   text-align: left;
   padding: 16px;
   font-size: 12px;
-  color: #414141;
+  color: #fff;
 }
 @media (max-width: 1024px) {
   .App {
