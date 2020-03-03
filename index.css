@@ -41,7 +41,7 @@ body {
   right: 0;
   width: 60px;
   height: 3px;
-  background: #ffa7c4;
+  background: #fff0a7;
 }
 .info {
   padding-top: 32px;
@@ -74,7 +74,7 @@ ul li.disable {
 }
 
 ul li a {
-  color: #ffa7c4;
+  color: #fff0a7;
   text-decoration: none;
   box-shadow: 0 1px 0 0 currentColor;
 }
